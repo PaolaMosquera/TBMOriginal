@@ -11,7 +11,7 @@
 <header>
 <div class="logo"><img src="IMG/TBMBanner.jpg" alt="TBM" class="logo"></div>
 	<nav>
-		<a href="/Proyecto/PaginaUsuario.jsp" class="nav-item">Usuario</a>
+		<a href="/Proyecto/PaginaUsuario.jsp" class="nav-item">Usuarios</a>
 		<a href="/Proyecto/PaginaCliente.jsp" class="nav-item">Clientes</a>
 		<a href="/Proyecto/PaginaProveedores.jsp" class="nav-item">Proveedores</a>
 		<a href="/Proyecto/PaginaProductos.jsp" class="nav-item">Productos</a>
