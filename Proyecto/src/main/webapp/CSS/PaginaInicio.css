@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+
+body {
+  background: url(https://fondosmil.com/fondo/9846.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	text-align: center;
+	margin: 0px 0 0px;
+	text-align: center;
+	font-size: 50px;
+	color: #eae7e7;
+	text-shadow: 3px 3px 5px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+header {
+
+  background-color: #000000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: 2px 2px 10px #999;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.logo{
+  position: relative;
+  margin: auto;
+  text-align: center;
+  height: auto;
+}
+form{
+  width: 43%;
+  height: 500px;
+  background: rgba(3,3,3,.7);
+  overflow: hidden;
+}
+
+.btninsu{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  display: block;
+  border-right: 5px solid;
+  margin: 10px auto;
+  padding: 10px;
+  width: 84%;
+  border-radius: 20px !important;
+  margin-top: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+input{
+  width: 40%;
+  height: 40px;
+  border: none;
+  border-left: 5px solid;
+  background-color: rgb(83, 83, 83);
+  border-color: rgb(181, 181, 181);
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 300;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+h1{
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 21px;
+  color: rgba(255,255,255,.5);
+}
+
+input:focus{
+  outline: 0;
+  background: rgba(181, 181, 181,.2);
+  border-radius: 20px;
+  border-color: transparent;
+}
+
+
+.form-content {
+	text-align: right;
+	margin-right: 25%;
+}
+.labelestil{
+	color: rgba(244,244,244,.6);
+}
+ul{
+  list-style: none;
+}
+#menu li>a{
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
